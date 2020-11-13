@@ -1,0 +1,36 @@
+html
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+body
+{
+    background-image: url("../Images/mainbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tables
+{
+    width: 100%;
+    margin: 1%;
+    font-size: large;
+    color: white;
+}
+th
+{
+    border: 3px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: #000000;
+}

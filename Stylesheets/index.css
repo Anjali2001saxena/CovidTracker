@@ -1,0 +1,90 @@
+html
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+body
+{
+    background-image: url("../Images/mainbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    font-family: Abhaya Libre;
+    font-size: 6vh;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: 5px 5px 3px #000000;
+}
+
+.total
+{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-section
+{
+    margin: 2% 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(252, 1, 1, 0.555);
+    box-shadow: 5px 5px 5px black;
+}
+
+.button
+{
+    padding: 2% 3%;
+    margin: 2%;
+    color: white;
+    background-color: rgb(255, 145, 0);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    
+}
+.button:hover
+{
+    background-color: red;
+    color: white;
+}
+
+
+a
+{
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+
+}
+a:hover
+{
+    color: white;
+}
+
+.footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-color: #000000;
+}
+

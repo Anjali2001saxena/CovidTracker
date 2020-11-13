@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID TRACKER</title>
+    <link rel = "icon" href = "../Images/logo.jpg" type = "image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Stylesheets/statedetail.css">
+    <script src="../JavascriptFiles/statedetail.js"></script>
+</head>
+<body>
+
+    <div class="flex-container">
+        <input type="text" class="search-bar" placeholder="Enter state name...." id="input" >
+        <button class="search-btn" onclick="add()"><i class="fa fa-search"></i></button>
+    </div>
+
+
+    <div class="flex-container">
+        <div class="flex-section">
+            <h1>TOTAL CASES</h1>
+            <div id="total_case" class="total"></div>
+        </div>
+        <div class="flex-section">
+            <h1>ACTIVE CASES</h1>
+            <div id="active_case" class="total"></div>
+        </div>
+        <div class="flex-section">
+            <h1>DEATH CASES</h1>
+            <div id="death_case" class="total"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Anjali Saxena 2020</p>
+    </div>
+    
+</body>
+</html>
